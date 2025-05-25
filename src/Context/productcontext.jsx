@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useReducer } from "react";
 import { filterProducts, sortProducts } from "./productUtils";
-import { initialState, productReducer } from "./productreducer.js";
+import { initialState, productReducer } from "./ProductReducer.js";
 
 const ProductContext = createContext();
 
