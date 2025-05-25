@@ -2,7 +2,7 @@ import React from "react";
 import SvgIcon from "../ResuableComponent/SvgIcon";
 import Button from "../ResuableComponent/Button";
 import { useProductContext } from "../../context/productcontext";
-import { calculateTotals } from "../../context/productReducer";
+import { calculateTotals } from "../../context/productreducer";
 
 
 const OrderSummary = () => {
