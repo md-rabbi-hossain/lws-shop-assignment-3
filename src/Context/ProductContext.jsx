@@ -1,8 +1,7 @@
 // src/Context/ProductContext.js
 import React, { createContext, useContext, useReducer } from "react";
 import { sortProducts, filterProducts } from "./productUtils";
-import { initialState, productReducer } from "./productReducer";
-
+import { initialState, productReducer } from "./productReducer.js";
 const ProductContext = createContext();
 
 export const ProductProvider = ({ children }) => {
