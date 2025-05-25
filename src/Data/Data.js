@@ -1,0 +1,138 @@
+export const navItems = [
+  { text: "Shop", href: "#" },
+  { text: "On Sale", href: "#" },
+  { text: "New Arrivals", href: "#" },
+  { text: "Brands", href: "#" },
+];
+
+import image1 from "../assets/img/image 1.png";
+import image2 from "../assets/img/image 10-1.png";
+import image3 from "../assets/img/image 10-2.png";
+import image4 from "../assets/img/image 7-1.png"
+import image5 from "../assets/img/image 8-2.png";
+import image6 from "../assets/img/image 8.png";
+import image7 from "../assets/img/image 9-1.png";
+import image8 from "../assets/img/image 9-2.png";
+import image9 from "../assets/img/image 9.png";
+
+export const products = [
+  {
+    id: 1,
+    image: image1,
+    title: "Gradient Graphic T-shirt",
+    rating: 4.0,
+    stock: 212,
+    price: 145,
+    oldPrice: null,
+    popularity: 88,
+    createdAt: "2024-12-12T10:00:00Z",
+    size: "Large",
+    color: "White",
+  },
+  {
+    id: 2,
+    image: image2,
+    title: "Polo with Tipping Details",
+    rating: 1.0,
+    stock: 0,
+    price: 180,
+    oldPrice: null,
+    popularity: 65,
+    createdAt: "2025-02-01T10:00:00Z",
+    size: "Medium",
+    color: "Blue",
+  },
+  {
+    id: 3,
+    image: image3,
+    title: "Black Striped T-shirt",
+    rating: 3.0,
+    stock: 420,
+    price: 120,
+    oldPrice: 160,
+    popularity: 45,
+    createdAt: "2024-11-10T10:00:00Z",
+    size: "Small",
+    color: "Black",
+  },
+  {
+    id: 4,
+    image: image4,
+    title: "Skinny Fit Jeans",
+    rating: 4.0,
+    stock: 20,
+    price: 240,
+    oldPrice: 260,
+    popularity: 91,
+    createdAt: "2025-01-15T10:00:00Z",
+    size: "32",
+    color: "Blue Denim",
+  },
+  {
+    id: 5,
+    image: image5,
+    title: "Checkered Shirt",
+    rating: 4.0,
+    stock: 20,
+    price: 180,
+    oldPrice: null,
+    popularity: 59,
+    createdAt: "2024-10-05T10:00:00Z",
+    size: "Large",
+    color: "Red",
+  },
+  {
+    id: 6,
+    image: image6,
+    title: "Sleeve Striped T-shirt",
+    rating: 4.0,
+    stock: 20,
+    price: 130,
+    oldPrice: 160,
+    popularity: 75,
+    createdAt: "2025-03-01T10:00:00Z",
+    size: "Medium",
+    color: "White",
+  },
+  {
+    id: 7,
+    image: image7,
+    title: "Vertical Striped Shirt",
+    rating: 4.0,
+    stock: 20,
+    price: 212,
+    oldPrice: 232,
+    popularity: 42,
+    createdAt: "2024-09-20T10:00:00Z",
+    size: "Small",
+    color: "Light Blue",
+  },
+  {
+    id: 8,
+    image: image8,
+    title: "Courage Graphic T-shirt",
+    rating: 4.0,
+    stock: 20,
+    price: 145,
+    oldPrice: null,
+    popularity: 98,
+    createdAt: "2025-01-28T10:00:00Z",
+    size: "Large",
+    color: "Black",
+  },
+  {
+    id: 9,
+    image: image9,
+    title: "Loose Fit Bermuda Shorts",
+    rating: 4.5,
+    stock: 10,
+    price: 80,
+    oldPrice: null,
+    popularity: 86,
+    createdAt: "2025-04-10T10:00:00Z",
+    size: "Medium",
+    color: "Beige",
+  },
+];
+
+
