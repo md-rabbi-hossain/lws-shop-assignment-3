@@ -1,4 +1,4 @@
-import { useProductContext } from "../../Context/ProductContext";
+import { useProductContext } from "../../context/productcontext";
 import SvgIcon from "./SvgIcon";
 
 const SearchBar = ({ placeholder = "Search...", className = "" }) => {

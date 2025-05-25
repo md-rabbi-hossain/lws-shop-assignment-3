@@ -1,5 +1,5 @@
 import React from 'react'
-import { useProductContext } from '../../Context/ProductContext';
+import { useProductContext } from "../../context/productcontext";
 
 function SortInput() {
   const { sortType, dispatch } = useProductContext();
